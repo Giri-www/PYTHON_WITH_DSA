@@ -1,4 +1,7 @@
-#Rotation Array in Swapping Approach
+#Rotation Array in Assign every element with its previous element 1st element 
+# a[4] = a[3]
+# a[3] = a[2]
+
 # Time Complexity: O(n), as we need to iterate through all the elements.[n is the length of array]
 # Auxiliary Space: O(1), as we are using constant space.
 
