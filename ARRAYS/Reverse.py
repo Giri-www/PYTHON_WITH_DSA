@@ -21,4 +21,9 @@ print(array)
 ReverseArray=My_Reverse(array)
 print(ReverseArray)
 
-
+#Reverse with slicing
+# Time Complexity: O(n) 
+# Space Complexity: O(n) copying of array1 in array2
+array1 = [1,2,3,4,5]
+array2 = array1[::-1]
+print(array2)
