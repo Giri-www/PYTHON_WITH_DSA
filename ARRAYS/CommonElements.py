@@ -1,4 +1,4 @@
-'''**Finding common elements between two List**'''
+'''**Finding common elements between two List or Array**'''
 
 # The space complexity :  O(k), where k is the number of common elements between arr1 and arr
 #  The time complexity :
@@ -13,8 +13,8 @@ def commonElemnts(arr,arr1):
             common_Elements.append(num)
     return common_Elements
 #Driver 
-arr1 = [1, 2, 3, 4, 5]
-arr = [3, 4, 5, 6, 7]
+arr1 = [1, 2, 3, 4, 5,9]
+arr = [3, 4, 5, 6, 7,10]
 result = commonElemnts(arr,arr1)
 print("Common elements Normal Approach:", result)
 
